@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Neo4j persistent data and imports
+docker/neo4j_data/
+docker/neo4j_import/*.csv
+
+# Raw and processed datasets
+data/raw/synthea/*.csv
+data/raw/synthea/*.zip
+data/raw/openfda/*.json
+data/processed/
+
+# ChromaDB local persistence
+data/chroma_db/
+*.sqlite3
+
+# Environment variables & secrets
+.env
+.streamlit/secrets.toml
+
+# IDE configuration
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
